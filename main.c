@@ -3,12 +3,12 @@
 
 int main() 
 {
-    int valeur_de_TS = 1;
-    int tour_joueur_TS = 0;
-    int nombre_joueurs_TS = 4;
+    int valeur_de_KLB = 1;
+    int tour_joueur_KLB = 0;
+    int nombre_joueurs_KLB = 4;
 
-    Joueur_TS joueurs_TS[nombre_joueurs_TS];
-    intialise_ludo_TS(&valeur_de_TS, &tour_joueur_TS, &nombre_joueurs_TS, joueurs_TS);
+    Joueur_KLB joueurs_KLB[nombre_joueurs_KLB];
+    intialise_ludo_KLB(&valeur_de_KLB, &tour_joueur_KLB, &nombre_joueurs_KLB, joueurs_KLB);
     
     return 0;
 }
